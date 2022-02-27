@@ -16,6 +16,7 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="x3dom/x3dom.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -185,42 +186,86 @@
 
                     <div class="row gx-0">
                         <div class="col-lg-6">
-                            <a class="portfolio-item" href="#!">
+                            <a>
                                 <div class="caption">
                                     <div class="caption-content">
                                         <div class="h2">Sun Flower</div>
                                         <p class="mb-0">shoot menggunakan single camera on samsung j7 prime, iso terendah!</p>
                                     </div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/4.jpeg" alt="..." />
+                                <!-- <img class="img-fluid" src="assets/img/4.jpeg" alt="..." /> -->
+                                <x3d width='500px' height='400px'> 
+                                    <scene>
+                                        <viewpoint position="-1.94639 1.79771 -2.89271" orientation="0.03886 0.99185 0.12133 3.75685"></viewpoint>
+                                    <inline nameSpaceName="Deer" mapDEFToID="true" onclick='redNose();' url="object/Deer.x3d" >  </inline>
+                                    </scene> 
+                                </x3d>
+                                      
                             </a>
                         </div>
     
     
                         <div class="col-lg-6">
-                            <a class="portfolio-item" href="#!">
+                            <a>
                                 <div class="caption">
                                     <div class="caption-content">
                                         <div class="h2">Minimalism</div>
                                         <p class="mb-0">shoot menggunakan single camera on samsung j7 prime, typography editing with picsArt!</p>
                                     </div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/1.jpeg" alt="..." />
+                                <!-- <img class="img-fluid" src="assets/img/1.jpeg" alt="..." /> -->
+                                <x3d width='500px' height='400px'> 
+                                    <scene>
+                                        <viewpoint position="-1.94639 1.79771 -2.89271" orientation="0.03886 0.99185 0.12133 3.75685"></viewpoint>
+                                    <inline nameSpaceName="Deer" mapDEFToID="true" onclick='redNose();' url="object/Kursi.x3d" >  </inline>
+                                    </scene> 
+                                </x3d>
                             </a>
-                        </div>
+                        </div><br>
     
     
-                        <div class="col-lg-6">
-                            <a class="portfolio-item" href="#!">
-                                <div class="caption">
-                                    <div class="caption-content">
-                                        <div class="h2">Red Flower</div>
-                                        <p class="mb-0">Shoot on galaxy j7 prime, iso 100 mode pro</p>
+                        <div class="row gx-0">
+                            <div class="col-lg-6">
+                                <a>
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <div class="h2">Sun Flower</div>
+                                            <p class="mb-0">shoot menggunakan single camera on samsung j7 prime, iso terendah!</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/5.jpeg" alt="..." />
-                            </a>
-                        </div>
+                                    <!-- <img class="img-fluid" src="assets/img/4.jpeg" alt="..." /> -->
+
+
+                                    <x3d width='500px' height='400px'> 
+                                        <scene>
+                                            <viewpoint position="-1.94639 1.79771 -2.89271" orientation="0.03886 0.99185 0.12133 3.75685"></viewpoint>
+                                            <inline nameSpaceName="Deer" mapDEFToID="true" onclick='redNose();' url="object/Meja3.x3d" >  </inline>
+                                        </scene> 
+                                    </x3d>
+                                          
+                                </a>
+                            </div>
+
+
+                            <div class="col-lg-6">
+                                <a>
+                                    <div class="caption">
+                                        <div class="caption-content">
+                                            <div class="h2">Minimalism</div>
+                                            <p class="mb-0">shoot menggunakan single camera on samsung j7 prime, typography editing with picsArt!</p>
+                                        </div>
+                                    </div>
+                                    <!-- <img class="img-fluid" src="assets/img/1.jpeg" alt="..." /> -->
+                                    
+                                    <x3d width='500px' height='400px'> 
+                                        <scene>
+                                            <viewpoint position="-1.94639 1.79771 -2.89271" orientation="0.03886 0.99185 0.12133 3.75685"></viewpoint>
+                                            <inline nameSpaceName="Deer" mapDEFToID="true" onclick='redNose();' url="object/Lemari.x3d" >  </inline>
+                                        </scene> 
+                                    </x3d>
+
+                                </a>
+                            </div><br>
     
     
                         <div class="col-lg-6">
@@ -339,6 +384,10 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="x3dom/dash.all.js"></script>
+        <script src="x3dom/x3dom.js"></script>
+        <script src="x3dom/x3dom-full.js"></script>
+        <script src="x3dom/x3dom-physics.js"></script>
     </body>
 </html>
 
